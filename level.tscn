@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dq0a58c4vhble"]
+
+[ext_resource type="PackedScene" uid="uid://dpngvr1cxx8d8" path="res://plataforma.tscn" id="1_fyb8n"]
+
+[node name="Level" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.971433, 0.237313, 0, -0.237313, 0.971433, 0, 0.55994, 1.08284)
+fov = 80.6659
+
+[node name="Plataforma" parent="." instance=ExtResource("1_fyb8n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.507738)
